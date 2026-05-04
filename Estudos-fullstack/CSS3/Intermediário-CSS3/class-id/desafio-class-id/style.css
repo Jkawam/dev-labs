@@ -1,0 +1,23 @@
+#menu{
+    background-color: yellow;
+}
+
+.sistema{
+    background-color: rgb(179, 178, 178);
+}
+
+
+#footer{
+    border: solid 1px rgb(136, 136, 136);
+    font-size: 32px;
+}
+
+.destaque{
+    background-color: orange;
+    height: 200px; /*o height é a altura*/
+    width: 300px; /*o width é a largura*/
+}
+
+
+
+

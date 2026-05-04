@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.menu{
+    background-color: rgb(30, 149, 228);
+    padding: 7px;
+}
+
+.logo{
+    width: 200px;
+}
+
+a{
+    background-color: rgba(255, 255, 255, 0.507);
+    border: 1px solid white;
+    margin: 8px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.corpo{
+    background-color: rgb(160, 16, 218);
+}
+
+.novidades{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}

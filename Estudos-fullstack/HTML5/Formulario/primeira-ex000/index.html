@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h1>Formulário de Cadastro</h1>  
+
+    <!--
+    form: elemento que representa um formulário.
+    input: elemento de entrada de dados.
+    submit: tipo de input que envia o formulário.
+    button: elemento de botão.
+    <form action="processa" method="post">
+    -->
+
+    <!--
+    -input é onde você escreve os dados do formulário .
+    -type é o tipo do input, existem vários tipos de input, como text, email, password, submit, etc.
+    -name é o nome do input, é usado para identificar o input no servidor.
+    -placeholder é o texto que aparece dentro do input quando ele está vazio,
+     é usado para dar uma dica do que deve ser digitado no input.
+     -textarea é um elemento de área de texto, ele é usado para digitar textos maiores,
+     como comentários, descrições, etc...
+     button é um elemento de botão, ele pode ser usado para enviar o formulário ou para outras ações, como abrir um modal, etc...
+    -->
+    
+    <form>
+
+        Email: <br>
+        <input type="email" name="email" placeholder="digite seu email" > <br> 
+
+         Senha: <br>
+        <input type="password" name="senha" placeholder="Digite sua senha"> <br>
+
+        Comentario: <br>
+        <textarea name="comentario" placeholder="digite seu comentario"></textarea> <br>
+
+        <input type="submit" value="Cadastrar">
+
+        <button type="submit"> <img width="12" src="../tabelas/img/brasil.png" alt="">Entra</button> <!-- o button é um elemento de botão, ele pode conter outros elementos dentro dele, como imagens-->
+
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'doido';
+    src: url(fonts/SuperPopstar-Regular.woff);
+}
+
+h1{
+    font-family: 'doido';
+}

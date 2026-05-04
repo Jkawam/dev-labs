@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario 02</title>
+</head>
+<body>
+
+    <h1>Exercício de formulario</h1>
+
+<form action=""> <!-- action é o endereço para onde os dados do formulário serão enviados, method é o método de envio dos dados, pode ser get ou post, o post é mais seguro pois os dados não ficam visíveis na URL-->
+
+        <fieldset> <!-- fieldset é um elemento que agrupa os campos do formulário fazendo uma caixa em volta dos campos,
+         ele é usado para organizar o formulário e facilitar a leitura-->
+
+        <legend>Dados Pessoais</legend> <!-- legend é o título do fieldset, ele é usado para agrupar os
+         campos do formulário, para facilitar a leitura e organização do formulário-->
+
+       <label for="nome">Nome:</label> <!-- label é um elemento que representa um rótulo para um elemento de formulário,
+        ele é usado para identificar o campo do formulário, o for é usado para associar o label com o input,o valor do
+         for deve ser igual ao id do input, assim quando o usuário clicar no label, o input correspondente será selecionado-->
+        <input type="text" name="nome" id="nome"> <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email"> <br>
+
+        <input type="checkbox" name="receber_email" id="receber_email" value="ativado">
+        <label for="receber_email">Quero receber e-mail</label> <br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+
+    </fieldset> <br>
+
+    <fieldset>
+
+        <legend>Informações Adicionais</legend>
+
+        <input type="radio" name="fisica" id="fisica" value="fisica">
+        <label for="fisica">Pessoa Física</label>
+
+        <input type="radio" name="juridica" id="juridica" value="juridica"> 
+        <label for="juridica">Pessoa Jurídica</label>
+
+    </fieldset> <br>
+
+    <button type="submit">Cadastrar</button>
+
+</form>
+
+</body>
+</html>

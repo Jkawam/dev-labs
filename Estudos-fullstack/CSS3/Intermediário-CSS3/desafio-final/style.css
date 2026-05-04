@@ -1,0 +1,35 @@
+body{
+    background-image: url(img/fundo.png); /*background-image é a imagem de fundo*/
+    font-family: Arial, Helvetica, sans-serif; /*font-family é a fonte do texto*/ 
+}
+
+#principal{
+    width: 1000px;/* o width é o tamnho da caixa horizontalmente */
+}
+
+#menu{
+    background-color: rgb(163, 154, 128); /* o background-color é a cor do fundo */
+    padding: 20px; /* o padding é o espaço entre o texto e a borda da caixa */ 
+}
+
+#conteudo{
+    background-color: antiquewhite;
+    text-align: justify; /*o text-align é o alinhamento do texto*/
+    padding: 10px;   
+}
+
+#rodape{
+    text-align: center;
+}
+
+a{
+    color: rgb(63, 63, 63);
+    text-decoration: none; /*text-decoration é a decoração do texto (o none é sem decoração)*/
+    padding: 10px;
+    font-weight: bold; /*font-weight é a espessura do texto*/
+}
+
+h2{
+    color: rgb(99, 99, 98); /*color é a cor do texto*/
+}
+
