@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    #principal{
+        border: 1px solid rgb(0, 0, 0);
+        background: #11e651;
+        width: 920px;
+        margin: 0 auto;
+
+    }
+
+    #principal::after{
+        content: '';
+        display: block;
+        clear: both;/* o clear especifica se um elemento pode 
+                      ter elementos flutuantes ao seu lado ou se deve ser movido
+                      para abaixo deles, limpando o fluxo de layout
+                    */
+    }
+
+    .caixa{
+        background-color: aliceblue;
+        padding: 5px;
+        width: 280px;
+        margin: 7px;
+        float: left; 
+    }
+
+    #rodape{
+        border: 1px solid rgb(0, 0, 0);
+        background-color: brown;
+        width: 920px;
+        margin: 0 auto;
+    }   
+
+
+</style>
+
+<body>
+
+     <div id="principal">
+        <div class="caixa">
+            <h2>Apenas teste</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus inventore odio.
+              Perspiciatis, obcaecati natus excepturi quos
+             maxime consectetur libero aperiam molestias officiis error at totam in alias sequi reprehenderit?
+            </p>
+        </div>
+
+        <div class="caixa">
+            <h2>Apenas teste</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus inventore odio.
+              Perspiciatis, obcaecati natus excepturi quos
+              maxime consectetur libero aperiam molestias officiis error at totam in alias sequi reprehenderit?
+            </p>
+        </div>
+
+        <div class="caixa">
+            <h2>Apenas teste</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus inventore odio.
+              Perspiciatis, obcaecati natus excepturi quos
+              maxime consectetur libero aperiam molestias officiis error at totam in alias sequi reprehenderit?
+            </p>
+        </div>
+    </div>
+
+    <div id="rodape">
+        <h3>apenas um rodape</h3>
+    </div>
+    
+</body>
+</html>
