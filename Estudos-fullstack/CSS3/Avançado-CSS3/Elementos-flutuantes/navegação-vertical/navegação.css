@@ -1,0 +1,23 @@
+    #menu ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        width: 200px;
+    }
+
+    #menu li a{
+        display: block; /* resolve o espaçamento */
+        padding: 12px 20px;
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        background: #f7b600 url("../pngegg.png") no-repeat 0.6em center;
+        background-size: 20px; /* define o tamanho da imagem de fundo*/
+        padding-left: 40px;
+    }
+
+    #menu li a:hover{
+        padding-left:2.5em;
+        color: white;
+        background: orange url("../pngegg.png") no-repeat 1em center;
+        background-size: 20px;
+    }
