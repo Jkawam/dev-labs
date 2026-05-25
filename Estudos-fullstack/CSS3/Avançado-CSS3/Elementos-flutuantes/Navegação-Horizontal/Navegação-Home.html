@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+
+    #menu ul{
+        list-style-type: none;
+        padding: 0.5em;
+        width: 720px;
+        background-color: #24252a;
+    }
+
+    #menu ul::after{
+        content: '';
+        display: block;
+        clear: both;
+    }
+
+    #menu li a{
+        display: block; /* resolve o espaçamento */
+        padding: 12px 20px;
+        color:white;
+        text-decoration: none;
+        float: left;
+        margin: 0 0.5em;
+        ;
+    }
+
+    #menu li a:hover{
+        background: rgba(0, 132, 255, 0.527) url("../pngegg.png") no-repeat 1em center;
+        border-radius: 50px;
+    }
+
+    #menu li a:active{
+        background-color: #7a7a7a;
+    }
+
+    #home #menu li.home a,
+    #produtos #menu li.produtos a,
+    #carrinho #menu li.carrinho a,
+    #contato #menu li.contato a{
+        background: rgba(0, 132, 255, 0.527) url("../pngegg.png") no-repeat 1em center;
+        border-radius: 50px;
+    }
+
+
+</style>
+
+<body id="home">
+
+    <h1>Menu de Navegação</h1>
+
+    <div id="menu">
+        <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="produtos"><a href="#">Produtos</a></li>
+            <li><a href="#">Carrinho</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+
+    <div id="produtos">
+        <h1>Roupas</h1>
+
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, nulla iste sequi magni dolore repellendus,
+            eveniet hic id, velit in aperiam saepe at eos veritatis beatae delectus quibusdam error sapiente.
+         </p>
+    </div>
+
+</body>
+</html>
