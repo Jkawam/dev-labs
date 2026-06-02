@@ -48,5 +48,5 @@ Este repositório foi criado com o objetivo de estudar e praticar tecnologias mo
 ---
 
 <p align="center">
-  💡 <i>“Aprender fazendo é o melhor caminho.”</i>
+  💡 <i>“Aprender fazendo é o melhor caminho”</i>
 </p>
