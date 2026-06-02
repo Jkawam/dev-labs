@@ -1,0 +1,86 @@
+/*Estrutura / Layout*/
+
+
+/*Tipografia*/
+
+body{
+    font-family:georgia, 'times new roman', times, serif;
+    margin: 0;
+    color: black;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+#cabecalho{
+    background-color: #c5e3fe;
+    border-bottom: 1px solid black;
+}
+
+.container{
+    width: 1145px;
+    margin: auto;
+    padding: 1.4rem;
+    display: flex; /* o display flex é utilizado para colocar os elementos em linha */
+    justify-content: space-between; /* distribui os elementos horizontalmente */
+    align-items: center; /* alinha os elementos verticalmente */
+}
+
+#menu{
+    display: flex; /* coloca os itens da lista lado a lado */
+    gap: 1.8rem; /* cria um espaço entre os elementos */
+    list-style: none; /* remove as bolinhas da lista */
+    margin: 0; /* remove a margem padrão */
+    padding: 0; /* remove o espaçamento interno padrão */
+}
+
+#menu a{
+    color: #333;
+    text-decoration: none; /* remove o sublinhado dos links */
+}
+
+#menu a:hover{
+    color: #0077cc; /* muda a cor quando o mouse passa por cima */
+}
+
+/* Botão */
+#botão a{
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1rem; /* espaçamento interno do botão */
+    border-radius: 30px; /* arredonda as bordas */
+    text-decoration: none; /* remove o sublinhado */
+}
+
+#corpo{
+    background-color: #c5e3fe;
+    border-bottom: 1px solid black;
+}
+
+.img-fundo{
+    width: 500px;
+    height: auto;
+}
+
+.informação h1{
+    font-size: 4.3rem;
+    margin-bottom: 1rem;
+}
+
+.informação p{
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.informação a{
+    display: inline-block;
+    margin-top: 0.5rem;
+    background-color: white;
+    color: #000;
+    padding: 0.8rem 1rem;
+    border-radius: 30px;
+    text-decoration: none;
+    border: 1px solid black;
+}
