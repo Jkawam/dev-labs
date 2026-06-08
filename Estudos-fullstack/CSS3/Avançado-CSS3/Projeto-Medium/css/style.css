@@ -14,7 +14,7 @@ body{
     height: auto;
 }
 
-#cabecalho{
+header{
     background-color: #c5e3fe;
     border-bottom: 1px solid black;
 }
@@ -65,22 +65,67 @@ body{
 }
 
 .informação h1{
-    font-size: 4.3rem;
-    margin-bottom: 1rem;
+    font-size: 4.3rem; /* tamanho da fonte */
+    margin-bottom: 1rem; /* espaçamento inferior */
 }
 
 .informação p{
     font-size: 1.25rem;
-    line-height: 1.6;
+    line-height: 1.6; /* espaçamento entre as linhas */
 }
 
 .informação a{
-    display: inline-block;
-    margin-top: 0.5rem;
+    display: flex;
+    width: 140px;
+    justify-content: center; /* alinha os elementos horizontalmente */
+    margin-top: 0.5rem; 
     background-color: white;
     color: #000;
-    padding: 0.8rem 1rem;
+    padding: 0.8rem 1rem; /* espaçamento interno do botão */
     border-radius: 30px;
     text-decoration: none;
     border: 1px solid black;
 }
+
+.container-pr , .tendencia{
+    width: 1145px;
+    margin: auto;
+    padding: 1.4rem;
+    display: flex;
+    flex-wrap: wrap; /* IMPORTANTE */
+    gap: 30px; /* espaço entre os cards */   
+}
+
+
+.tendencia{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pessoas{
+    display: flex;
+    gap: 30px;
+    width: 350px;
+    height: auto;
+}
+
+.numero h1{
+    font-size: 4rem;
+    color: #d3d3d3;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.nome{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.leitura h3{
+    margin:0;
+}
+
+
