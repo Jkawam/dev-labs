@@ -1,7 +1,4 @@
-/*Estrutura / Layout*/
-
-
-/*Tipografia*/
+/**********Estrutura / Layout**********/
 
 body{
     font-family:georgia, 'times new roman', times, serif;
@@ -59,19 +56,16 @@ header{
     border-bottom: 1px solid black;
 }
 
-.img-fundo{
-    width: 500px;
-    height: auto;
+.fundo-topo{
+    background-image: url("../img/fundo-topo.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 500px;
 }
 
-.informação h1{
-    font-size: 4.3rem; /* tamanho da fonte */
-    margin-bottom: 1rem; /* espaçamento inferior */
-}
-
-.informação p{
-    font-size: 1.25rem;
-    line-height: 1.6; /* espaçamento entre as linhas */
+.informação{
+    width: 60%;
+    padding: 0rem;
 }
 
 .informação a{
@@ -127,5 +121,20 @@ header{
 .leitura h3{
     margin:0;
 }
+
+/**********Tipografia**********/
+
+
+.informação h1{
+    font-size: 3.8rem; /* tamanho da fonte */
+    margin-bottom: 5rem; /* espaçamento inferior */
+}
+
+.informação p{
+    font-size: 1.25rem;
+    line-height: 1.5; /* espaçamento entre as linhas */
+}
+
+
 
 
