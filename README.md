@@ -1,6 +1,6 @@
 <div align="center">
 
-#  Dev Playground
+#  Dev Labs
 
 ### Laboratório de estudos e experimentação em Desenvolvimento Full Stack
 
