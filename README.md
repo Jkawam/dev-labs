@@ -29,24 +29,24 @@ Este repositório foi criado com o objetivo de estudar e praticar tecnologias mo
 
 ---
 
-### 🎯 Objetivos
-* 🧠 **Praticar** lógica de programação e algoritmos aplicados.
-* 🆕 **Explorar** o ecossistema FullStack (Front e Back-End).
-* 🏗️ **Construir** APIs robustas e escaláveis.
-* 📈 **Evoluir** constantemente os conceitos acadêmicos da UECE na prática.
+### Objetivos
+* **Praticar** lógica de programação e algoritmos aplicados.
+* **Explorar** o ecossistema FullStack (Front e Back-End).
+* **Construir** APIs robustas e escaláveis.
+* **Evoluir** constantemente os conceitos acadêmicos da UECE na prática.
 
 ---
 
-### 📂 O que você encontra aqui?
-* ⚛️ **Projetos de estudo** e componentes React.
-* ⚡ **Aplicações FullStack** com Next.js (SSR e API Routes).
-* 🎨 **Estilizações modernas** com Tailwind CSS e CSS avançado.
-* ⚙️ **Back-End com Node.js e Express**.
-* 🗄️ **Banco de dados relacional com SQL (MySQL)**.
-* 🔐 **Arquitetura, tipagem e boas práticas com TypeScript**.
+###O que você encontra aqui?
+* **Projetos de estudo** e componentes React.
+* **Aplicações FullStack** com Next.js (SSR e API Routes).
+* **Estilizações modernas** com Tailwind CSS e CSS avançado.
+* **Back-End com Node.js e Express**.
+* **Banco de dados relacional com SQL (MySQL)**.
+* **Arquitetura, tipagem e boas práticas com TypeScript**.
 
 ---
 
 <p align="center">
-  💡 <i>“Aprender fazendo é o melhor caminho”</i>
+   <i>“Aprender fazendo é o melhor caminho”</i>
 </p>
