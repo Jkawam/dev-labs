@@ -1,4 +1,4 @@
-# 🚀 Dev Playground
+# Dev Playground
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Em_Desenvolvimento-blue?style=for-the-badge" alt="Status">
@@ -7,12 +7,12 @@
 
 ---
 
-### 📌 Sobre
+### Sobre
 Este repositório foi criado com o objetivo de estudar e praticar tecnologias modernas de desenvolvimento web. Aqui é onde transformo teoria em código, explorando tanto o Front-End performático quanto o Back-End escalável.
 
 ---
 
-### 🛠 Tecnologias Utilizadas
+### Tecnologias Utilizadas
 
 <p align="left">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="35" title="HTML5"/>
