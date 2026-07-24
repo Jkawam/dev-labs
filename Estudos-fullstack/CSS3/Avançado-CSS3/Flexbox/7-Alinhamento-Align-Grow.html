@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamentos com Align-Self</title>
+
+    <style>
+
+        body{
+            background-color: rgb(202, 202, 202);
+        }
+
+        .container-flex{
+            width:250px;/* altura */
+            height: 200px;
+            border: 4px solid red;
+            display: flex; /* o display flex é utilizado para colocar os elementos em linha */
+            flex-direction: row; /* o flex-direction: row; define a direção dos elementos em linha, nesse caso ele já vem com essa propriedade
+            e column define que os elementos sejam alinhados verticalmente */
+            justify-content: center; /* alinha os elementos horizontalmente */
+            align-items: flex-start; /* o align-content faz com que os elementos sejam alinhados da forma que desejar em cima, só funciona com o flex-wrap*/
+
+        }
+
+        .container-flex > div{
+            border: 4px solid rgb(32, 32, 32);
+            color: rgb(26, 25, 25);
+            padding: 4px;
+            margin: 4px;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        .iten{
+            align-self: flex-end; /* o align-self faz com que voce modifique o alinhamento de um item especifico.*/
+        }
+
+    </style>
+
+</head>
+<body> 
+    
+    <h2>Row</h2>
+
+    <div class="container-flex">
+        <div>01</div>
+        <div class="iten">02</div>
+        <div>03</div>
+    </div>
+
+       <h2>Column</h2>
+
+    <div class="container-flex" style="flex-direction: column;">
+        <div>01</div>
+        <div class="iten">02</div>
+        <div>03</div>
+    </div>
+
+</body>
+</html>
