@@ -9,23 +9,18 @@
 header{
     display: flex;
     justify-content: space-between;
-    padding:18px 30px;
+    padding: 1rem;
     align-items: center;
 }
 
 nav{
-    display: flex;
-    gap: 1.8rem;
-}
-
-nav img{
-    width: 100px;
+    flex-grow:1;
 }
 
 nav ul{
     display: flex;
-    gap: 2rem;
-    justify-content: space-between;
+    padding: 10px;
+    gap: 1rem;
     list-style: none;
 }
 
