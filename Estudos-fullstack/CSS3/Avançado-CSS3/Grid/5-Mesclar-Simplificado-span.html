@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mesclando linhas e colunas</title>
+</head>
+
+<style>
+
+    body{
+        font-size: 2rem;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        height: 100vh;
+    }
+
+    .grid{
+       display: grid;
+       grid-template-columns: repeat(3, 1fr) ; /* o grid-template-columns serve para criar as colunas do grid e quantas colunas queremos  */
+       grid-template-rows: repeat(4, 1fr) ; /* o grid-template-rows serve para criar as linhas do grid e qual sera o tamanho  */
+       row-gap: 1rem; /* espacamento entre as linhas horizontal  */
+       column-gap: 1rem; /* espacamento entre as colunas vertical  */
+       /*gap: 1rem; /* espacamento entre as colunas horizontal e vertical  */
+    }
+
+    .grid > div{
+        border: 1px solid #fff;
+        background-color: #333;
+        padding: 2rem;
+        border-radius: 0.5rem;
+        text-align: center;
+    }
+  
+    .item2{
+        grid-column: span 2;
+        /*grid-column: 1 / 3; /* para simplificar se usa apenas a (/) o primeiro valor é a start e o segundo o end */
+        /*grid-row: 1 / 3;
+        /*grid-column: 1 / span 2; /* para simplificar se usa apenas a (/) o (span) serve para mesclar quantas colunas queremos */
+    }
+
+    .item3{
+        grid-column: span 2;
+    }
+
+    .item4{
+        grid-row: span 2;
+    }
+
+    .item7{
+        grid-column: span 3;
+    }
+    
+    
+
+
+</style>
+
+<body>
+
+    <div class="grid">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+    </div>
+    
+</body>
+</html>
