@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Area</title>
+</head>
+
+<style>
+
+    body{
+        font-size: 2rem;
+        background-color: rgb(66, 66, 66);
+        color: white;
+        height: 100vh;
+    }
+
+    .grid{
+        border: #fc0000 5px solid;
+       row-gap: 1rem; /* espacamento entre as linhas horizontal  */
+       column-gap: 1rem; /* espacamento entre as colunas vertical  */
+       /*gap: 1rem; /* espacamento entre as colunas horizontal e vertical  */
+       display: grid;
+       grid-template-columns: 1fr; /* o grid-template-columns serve para criar as colunas do grid e quantas colunas queremos  */
+       grid-template-areas: 
+           "cabecalho"
+           "navegacao"
+           "principal"
+           "rodape";
+    }
+
+    @media(min-width: 600px){
+        .grid{
+            grid-template-columns: 1fr 2fr; /* o grid-template-columns serve para criar as colunas do grid e quantas colunas queremos  */
+            grid-template-areas: /* grid-template-areas permite definir e nomear células (ou "áreas") em um container de grid, facilitando a criação de layouts complexos*/
+            "cabecalho cabecalho"
+            "navegacao principal"
+            "rodape rodape";
+        }
+    }
+
+    @media(min-width: 1200px){
+        .grid{
+            grid-template-columns: 1fr 2fr; /* o grid-template-columns serve para criar as colunas do grid e quantas colunas queremos  */
+            grid-template-areas:  /* grid-template-areas permite definir e nomear Celtulas (ou "áreas") em um container de grid, facilitando a criação de layouts complexos*/
+            "cabecalho cabecalho"
+            "navegacao principal"
+            "navegacao rodape";
+        }
+    }
+
+    header, nav, main, footer{
+        border: 1px solid #fff;
+        background-color: #333;
+        padding: 2rem;
+        border-radius: 0.5rem;
+    }
+
+    header{grid-area: cabecalho}
+    nav{grid-area: navegacao}
+    main{grid-area: principal}
+    footer{grid-area: rodape}
+
+
+
+
+</style>
+
+<body>
+
+    <div class="grid">
+        <header>cabeçalho</header>
+        <nav>home | sobre | contato | login</nav>
+        <main>
+            <h2>conteudo do sistema</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Officiis aliquid libero dicta tempora, inventore nihil saepe sapiente.
+                Nulla ipsum nihil iure dolorem omnis neque labore excepturi accusantium,
+                sint quam repudiandae?
+            </p>
+        </main>
+        <footer>rodape</footer>
+    </div>
+    
+</body>
+</html>
