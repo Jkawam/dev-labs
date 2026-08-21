@@ -1,0 +1,130 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav{
+    flex-grow:1;
+}
+
+nav ul{
+    display: flex;
+    padding: 10px;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+
+.actions{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.actions .button-white{
+    background-color: white;
+    color: #0B5CFF;
+    border: 1px solid #0B5CFF;
+    border-radius: 30px;
+    padding: 0.5rem;
+}
+
+.actions button{
+    padding:12px 20px;
+    background:#0B5CFF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+main{
+    padding: 1rem 3rem;
+}
+
+.capa{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.informacao{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.informacao h1{
+    font-size: 4rem;
+    line-height: 4.5rem;
+}
+
+.informacao p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgb(44, 44, 44);
+}
+
+
+.informacao button{
+    padding:15px 25px;
+    font-size: 1rem;
+    background:#0B5CFF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+.informacao-imagem, .organizacao-imagem{
+    display: flex;
+    justify-content: center;
+}
+
+
+.organizacao{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.organizacao h2{
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+.organizacao p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: rgb(44, 44, 44);
+}
+
+.organizacao button{
+    padding:15px 25px;
+    border: 1px solid #0B5CFF;
+    background: white;
+    color: #0B5CFF;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+footer{
+    padding:  1rem 3rem;
+    background-color: rgb(243, 243, 243);
+}
