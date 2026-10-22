@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Javascript -->
+    <script type="text/javascript">
+      
+    function gerarFraseMotivacional() {
+     const frases = [
+      "parabéns, você conseguiu!",
+      "não desista, você é capaz!",
+      "a persistência é a chave do sucesso.",
+      "o sucesso é a soma de pequenos esforços repetidos diariamente.",
+      "acredite em si mesmo e todo o resto virá naturalmente.",
+      "a vida é 10% o que acontece com você e 90% como você reage a isso.",
+      "o único lugar onde o sucesso vem antes do trabalho é no dicionário.",
+      "o sucesso não é a chave do sucesso, mas a consequência de um trabalho bem feito.",
+      "acredite que você pode e você já está no meio do caminho.",
+      "não espere por oportunidades, crie-as.",
+     ]
+
+     const indiceAleatorio = Math.floor(Math.random() * 10);
+     const frase = frases[indiceAleatorio];
+
+     document.getElementById("frase").innerHTML = frase;
+
+     }
+    </script>
+
+
+    <title>Frases motivacionais</title>
+
+  </head>
+
+  <body>
+    
+    <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12">
+
+            <div class="jumbotron">
+              <h1 class="text-success display-5">Frases motivacionais</h1>
+              <hr>
+
+              <h2 class="display-4" id="frase">
+                Em busca do ótimo não se faz o bom.
+              </h2>
+
+              <hr>
+              <button type="button" 
+              class="btn btn-success btn-lg" onclick="gerarFraseMotivacional()">Nova frase</button>
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+</html>
